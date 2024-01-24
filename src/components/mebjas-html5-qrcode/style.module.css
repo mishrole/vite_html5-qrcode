@@ -1,0 +1,12 @@
+.scan__button,
+.scan__button:active,
+.scan__button:focus,
+.scan__button:hover {
+  border: none;
+  margin: 0;
+  padding: 8px 8px;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.container__floating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 8px;
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

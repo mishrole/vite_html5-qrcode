@@ -1,0 +1,28 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: none;
+}
+
+.drag_and_drop__container {
+  color: #4f4f4f;
+  border: 3px dashed rgb(235, 235, 235);
+  display: block;
+  margin: 10px auto;
+  padding: 16px;
+  text-align: center;
+}
+
+.drag_and_drop__container p,
+.drag_and_drop__container input,
+.drag_and_drop__button__dragging {
+  pointer-events: none;
+}
+
+.drag_and_drop__container__dragging {
+  border: 3px dashed #4f4f4f;
+}
